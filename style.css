@@ -85,3 +85,17 @@ footer h2{
      font-size: var(--font-size);
 
 }
+#author {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 10px;
+    cursor: pointer;
+    
+}
+#author a{
+    text-decoration: none;
+    color: var(--gray-500);
+    &:hover{
+        color: var(--gray-950);
+    }
+}
